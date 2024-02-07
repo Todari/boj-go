@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codes/9375/s4 9375 패션왕 신해빈.md",
+                "file": "codes/9375/s3 9375 패션왕 신해빈.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e4e973d2fb48978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "codes/9461/s3 9461 파도반 수열.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "codes/9375/s4 9375 패션왕 신해빈.md",
+                "file": "codes/9461/s3 9461 파도반 수열.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "codes/9375/s4 9375 패션왕 신해빈.md",
+                "file": "codes/9461/s3 9461 파도반 수열.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "codes/9375/s4 9375 패션왕 신해빈.md"
+                "file": "codes/9461/s3 9461 파도반 수열.md"
               }
             }
           },
@@ -156,10 +169,13 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e9dad8ad48e7dd4a",
+  "active": "3e4e973d2fb48978",
   "lastOpenFiles": [
+    "codes/9375/s3 9375 패션왕 신해빈.md",
+    "codes/9461/s3 9461 파도반 수열.md",
+    "codes/9461/s3 9461.md",
+    "무제 폴더",
     "README.md",
-    "codes/9375/s4 9375 패션왕 신해빈.md",
     "codes/23289/main.go",
     "codes/23289",
     "codes/18111/main.go",
@@ -169,7 +185,6 @@
     "codes/17219/main.go",
     "codes/17219",
     "codes/15829/main.go",
-    "codes/15829",
     "9375/s4 9375 패션왕 신해빈.md"
   ]
 }
