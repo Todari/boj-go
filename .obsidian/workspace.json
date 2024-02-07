@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "b8b6c92554c80669",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6fd36590a329ffa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9dad8ad48e7dd4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "codes/9375/s4 9375 패션왕 신해빈.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "309897a2261d0ec3",
+    "type": "split",
+    "children": [
+      {
+        "id": "576ec6f6154620dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93d648f61ad72f85",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0505c042806f5e23",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b053c528fda313b6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ca066cadd5ebe4e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e026809fdb98b074",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd4aea5b68d5ae17",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "codes/9375/s4 9375 패션왕 신해빈.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "458e39c48bff7ef8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "codes/9375/s4 9375 패션왕 신해빈.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cf71e00eb00dcbeb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "adcb89c1ec3fe2eb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "codes/9375/s4 9375 패션왕 신해빈.md"
+              }
+            }
+          },
+          {
+            "id": "7599fc2f15a4499b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-projects:Open projects": false
+    }
+  },
+  "active": "e9dad8ad48e7dd4a",
+  "lastOpenFiles": [
+    "README.md",
+    "codes/9375/s4 9375 패션왕 신해빈.md",
+    "codes/23289/main.go",
+    "codes/23289",
+    "codes/18111/main.go",
+    "codes/18111",
+    "codes/18110/main.go",
+    "codes/18110",
+    "codes/17219/main.go",
+    "codes/17219",
+    "codes/15829/main.go",
+    "codes/15829",
+    "9375/s4 9375 패션왕 신해빈.md"
+  ]
+}
