@@ -1,5 +1,5 @@
 
-
+[백준 Online Judge](https://www.acmicpc.net/) 풀이를 모아놓은 Repository 입니다.
 
 ```dataview
 TABLE
