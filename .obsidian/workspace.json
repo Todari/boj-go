@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codes/1541/s2 1541 잃어버린 괄호.md",
+                "file": "codes/1927/s2 1927 최소 힙.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4599a8604733fdaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/heap.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "codes/1541/s2 1541 잃어버린 괄호.md",
+                "file": "codes/1927/s2 1927 최소 힙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "codes/1541/s2 1541 잃어버린 괄호.md",
+                "file": "codes/1927/s2 1927 최소 힙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "codes/1541/s2 1541 잃어버린 괄호.md"
+                "file": "codes/1927/s2 1927 최소 힙.md"
               }
             }
           },
@@ -170,8 +182,14 @@
   },
   "active": "3e4e973d2fb48978",
   "lastOpenFiles": [
-    "codes/11727/s3 11727 2 x n 타일링 2.md",
+    "docs/heap.md",
+    "codes/1927/s2 1927 최소 힙.md",
+    "docs",
+    "README.md",
     "codes/1541/s2 1541 잃어버린 괄호.md",
+    "codes/1927/main.go",
+    "codes/1927",
+    "codes/11727/s3 11727 2 x n 타일링 2.md",
     "codes/1541/main.go~",
     "codes/1541/main.go",
     "codes/1541",
@@ -180,16 +198,12 @@
     "codes/1012/s2 1012 유기농 배추.md",
     "2024-02-07.md",
     "무제 파일.canvas",
-    "README.md",
     "codes/9461/s3 9461 파도반 수열.md",
     "codes/11727/Drawing 2024-02-07 15.00.20.excalidraw.md",
     "codes/9375/s3 9375 패션왕 신해빈.md",
     "codes/1012/main.go~",
     "codes/1012/main.go",
     "codes/1012",
-    "codes/17626/main.go~",
-    "codes/17626/main.go",
-    "codes/17626",
     "codes/11726/s3 11726 2 x n 타일링.md",
     "Excalidraw/Drawing 2024-02-07 15.16.54.excalidraw.md",
     "Excalidraw/Drawing 2024-02-07 14.56.26.excalidraw.md",
