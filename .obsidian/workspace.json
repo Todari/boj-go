@@ -13,10 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codes/1927/s2 1927 최소 힙.md",
+                "file": "codes/2630/s2 2630 색종이 붙이기.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "s2 2630 색종이 붙이기"
+            }
+          },
+          {
+            "id": "154913d3a79a375d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "codes/1541/s2 1541 잃어버린 괄호.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "s2 1541 잃어버린 괄호"
+            }
+          },
+          {
+            "id": "2e5c69bab3aa9241",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "codes/9375/s3 9375 패션왕 신해빈.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "s3 9375 패션왕 신해빈"
             }
           },
           {
@@ -28,7 +58,9 @@
                 "file": "docs/heap.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "heap"
             }
           },
           {
@@ -40,10 +72,13 @@
                 "file": "codes/9461/s3 9461 파도반 수열.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "s3 9461 파도반 수열"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -62,8 +97,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -78,7 +116,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -86,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
             }
           }
         ]
@@ -109,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "codes/1927/s2 1927 최소 힙.md",
+                "file": "codes/9375/s3 9375 패션왕 신해빈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +159,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "s3 9375 패션왕 신해빈 의 백링크"
             }
           },
           {
@@ -126,10 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "codes/1927/s2 1927 최소 힙.md",
+                "file": "codes/9375/s3 9375 패션왕 신해빈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "s3 9375 패션왕 신해빈 의 나가는 링크"
             }
           },
           {
@@ -139,8 +185,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
             }
           },
           {
@@ -149,8 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "codes/1927/s2 1927 최소 힙.md"
-              }
+                "file": "codes/9375/s3 9375 패션왕 신해빈.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "s3 9375 패션왕 신해빈 의 개요"
             }
           },
           {
@@ -158,7 +213,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -170,41 +227,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "3e4e973d2fb48978",
+  "active": "2e5c69bab3aa9241",
   "lastOpenFiles": [
-    "docs/heap.md",
+    "codes/2630/s2 2630 색종이 붙이기.md",
     "codes/1927/s2 1927 최소 힙.md",
+    "codes/1541/s2 1541 잃어버린 괄호.md",
+    "codes/17626/s3 17626 Four Squares.md",
+    "codes/11727/s3 11727 2 x n 타일링 2.md",
+    "codes/11726/s3 11726 2 x n 타일링.md",
+    "codes/9461/s3 9461 파도반 수열.md",
+    "codes/9375/s3 9375 패션왕 신해빈.md",
+    "codes/1012/s2 1012 유기농 배추.md",
+    "codes/11724/s2 2630 색종이 붙이기 1.md",
+    "codes/7576/main.go",
+    "codes/7576",
+    "docs/heap.md",
+    "codes/11724/main.go",
+    "codes/11724/run",
+    "codes/11724/go",
+    "codes/11724",
+    "codes/2630/main.go~",
+    "codes/2630/main.go",
+    "codes/2630",
     "docs",
     "README.md",
-    "codes/1541/s2 1541 잃어버린 괄호.md",
-    "codes/1927/main.go",
-    "codes/1927",
-    "codes/11727/s3 11727 2 x n 타일링 2.md",
-    "codes/1541/main.go~",
-    "codes/1541/main.go",
-    "codes/1541",
-    "codes/main.go",
-    "codes/17626/s3 17626 Four Squares.md",
-    "codes/1012/s2 1012 유기농 배추.md",
     "2024-02-07.md",
     "무제 파일.canvas",
-    "codes/9461/s3 9461 파도반 수열.md",
     "codes/11727/Drawing 2024-02-07 15.00.20.excalidraw.md",
-    "codes/9375/s3 9375 패션왕 신해빈.md",
-    "codes/1012/main.go~",
-    "codes/1012/main.go",
-    "codes/1012",
-    "codes/11726/s3 11726 2 x n 타일링.md",
     "Excalidraw/Drawing 2024-02-07 15.16.54.excalidraw.md",
     "Excalidraw/Drawing 2024-02-07 14.56.26.excalidraw.md",
     "codes/11726/s3.md",
