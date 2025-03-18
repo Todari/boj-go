@@ -3,93 +3,96 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"math"
 	"os"
+	"strconv"
+	"strings"
 )
 
-var (
-	paper [][]int
-)
-
-func main() {
-	w := bufio.NewWriter(os.Stdout)
-	r := bufio.NewReader(os.Stdin)
-	defer w.Flush()
-
-	var N int
-	fmt.Fscanln(r, &N)
-
-	paper = make([][]int, 1)
-	for i := 0; i < N; i++ {
-		for j := 0; j < N; j++ {
-			var x int
-			fmt.Fscan(r, &x)
-			paper[0] = append(paper[0], x)
-		}
-		fmt.Fscanln(r)
-	}
-
-	// 기존에 주어진 paper가 자를 필요 없어도 자름
-	// 수정이 필요해!!!
-	cut()
-	white, blue := get()
-	fmt.Fprintln(w, white)
-	fmt.Fprintln(w, blue)
-}
-
-func cut() {
-START:
-	for i, v := range paper {
-		if !check(v) {
-			result := make([][]int, 4)
-
-			for ii, vv := range v {
-				if (ii/(int(math.Sqrt(float64(len(v))))/2))%2 == 0 && ii/(len(v)/2) < 1 {
-					result[0] = append(result[0], vv)
-				}
-				if (ii/(int(math.Sqrt(float64(len(v))))/2))%2 != 0 && ii/(len(v)/2) < 1 {
-					result[1] = append(result[1], vv)
-				}
-				if (ii/(int(math.Sqrt(float64(len(v))))/2))%2 == 0 && ii/(len(v)/2) >= 1 {
-					result[2] = append(result[2], vv)
-				}
-				if (ii/(int(math.Sqrt(float64(len(v))))/2))%2 != 0 && ii/(len(v)/2) >= 1 {
-					result[3] = append(result[3], vv)
-				}
-			}
-			paper = append(paper[:i], paper[i+1:]...)
-			paper = append(paper, result...)
-
-		}
-		fmt.Println(paper)
-	}
-
-	for _, v := range paper {
-		if !check(v) {
-			goto START
-		}
-	}
-}
-
-func check(paper []int) bool {
-	init := paper[0]
-	for _, v := range paper {
-		if v != init {
+// isCompleted: 색종이가 모두 같은 색인지 확인
+func isCompleted(array []int) bool {
+	first := array[0]
+	for _, val := range array {
+		if val != first {
 			return false
 		}
 	}
 	return true
 }
 
-func get() (int, int) {
-	white, blue := 0, 0
-	for _, v := range paper {
-		if v[0] == 1 {
-			blue += 1
-		} else {
-			white += 1
+// cut: 색종이를 4등분
+func cut(array []int, n int) [][]int {
+	if isCompleted(array) {
+		return [][]int{array}
+	}
+
+	result := make([][]int, 4)
+	half := n / 2
+
+	for i := 0; i < n; i++ {
+		for j := 0; j < n; j++ {
+			index := i*n + j
+			if i < half && j < half {
+				result[0] = append(result[0], array[index])
+			} else if i < half && j >= half {
+				result[1] = append(result[1], array[index])
+			} else if i >= half && j < half {
+				result[2] = append(result[2], array[index])
+			} else {
+				result[3] = append(result[3], array[index])
+			}
+		}
+	}
+	return result
+}
+
+func main() {
+	// 입력 받기
+	reader := bufio.NewReader(os.Stdin)
+	text, _ := reader.ReadString('\n')
+	n, _ := strconv.Atoi(strings.TrimSpace(text))
+
+	colors := make([][]int, 1)
+	colors[0] = []int{}
+
+	// 색종이 정보 입력
+	for i := 0; i < n; i++ {
+		line, _ := reader.ReadString('\n')
+		nums := strings.Fields(line)
+		for _, num := range nums {
+			val, _ := strconv.Atoi(num)
+			colors[0] = append(colors[0], val)
 		}
 	}
 
-	return white, blue
+	// step 계산
+	step := 0
+	for temp := n; temp > 1; temp /= 2 {
+		step++
+	}
+
+	// 색종이 나누기
+	for i := 0; i < step; i++ {
+		var tmp [][]int
+		for _, c := range colors {
+			tmp = append(tmp, cut(c, n)...)
+		}
+		colors = tmp
+		n /= 2
+	}
+
+	// 결과 저장
+	white, blue := 0, 0
+	for _, array := range colors {
+		if isCompleted(array) {
+			if array[0] == 0 {
+				white++
+			} else {
+				blue++
+			}
+		}
+	}
+
+	// 출력
+	fmt.Println(white)
+	fmt.Println(blue)
 }
